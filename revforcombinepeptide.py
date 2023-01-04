@@ -18,7 +18,7 @@ def mergeFile(file, mit, temp):
             seq_found = 0
             
             for item in mit:
-                if item[2] == line[2].strip():
+                if item[1] == line[0].strip():
                     item[0] += int(line[1])
                     seq_found = 1
 
